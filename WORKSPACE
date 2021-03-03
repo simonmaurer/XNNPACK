@@ -45,9 +45,9 @@ http_archive(
 # pthreadpool library, used for parallelization
 http_archive(
     name = "pthreadpool",
-    strip_prefix = "pthreadpool-545ebe9f225aec6dca49109516fac02e973a3de2",
-    sha256 = "8461f6540ae9f777ce20d1c0d1d249e5e61c438744fb390c0c6f91940aa69ea3",
-    urls = ["https://github.com/Maratyszcza/pthreadpool/archive/545ebe9f225aec6dca49109516fac02e973a3de2.zip"],
+    strip_prefix = "pthreadpool-b4589998be9a0f794236cf46f1b5b232b2b15ca3",
+    sha256 = "b09f79d1b609239861bce5ed4ba4fbcf04f36e2c31471276158c44e5e15fde95",
+    urls = ["https://github.com/Maratyszcza/pthreadpool/archive/b4589998be9a0f794236cf46f1b5b232b2b15ca3.zip"],
 )
 
 # clog library, used for logging
@@ -65,10 +65,10 @@ http_archive(
 # cpuinfo library, used for detecting processor characteristics
 http_archive(
     name = "cpuinfo",
-    strip_prefix = "cpuinfo-ed8b86a253800bafdb7b25c5c399f91bff9cb1f3",
-    sha256 = "a7f9a188148a1660149878f737f42783e72f33a4f842f3e362fee2c981613e53",
+    strip_prefix = "cpuinfo-5916273f79a21551890fd3d56fc5375a78d1598d",
+    sha256 = "2a160c527d3c58085ce260f34f9e2b161adc009b34186a2baf24e74376e89e6d",
     urls = [
-        "https://github.com/pytorch/cpuinfo/archive/ed8b86a253800bafdb7b25c5c399f91bff9cb1f3.zip",
+        "https://github.com/pytorch/cpuinfo/archive/5916273f79a21551890fd3d56fc5375a78d1598d.zip",
     ],
     build_file = "@//third_party:cpuinfo.BUILD",
     patches = ["@//third_party:cpuinfo.patch"],
