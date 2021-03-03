@@ -207,7 +207,7 @@ config_setting(
 config_setting(
     name = "macos_arm64",
     values = {
-        "apple_platform_type": "macos",
+        "apple_platform_type": "ios",
         "cpu": "darwin_arm64",
     },
 )
